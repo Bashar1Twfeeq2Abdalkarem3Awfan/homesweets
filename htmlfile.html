@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>skip ad</title>
+    <link rel="stylesheet" href="./css/cssfile.css">
+</head>
+<body style="height: 2000px;">
+	<header>
+		<div class="navber" style="position: relative;">
+			<div id="logo">Home<span id="logo-s">sweets</span></div>
+			<span class="sign"><a class="act" href="#">SIGN UP</a></span>
+			<span class="sign" id="sign_in"><a href="#">SIGN IN</a></span>
+		</div>
+	</header>
+	
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt" >
+				<h1>كيكات</h1> <a href="./html/c2_index.html" class="btn-primary">تسوق الان</a>
+				<!-- <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p> -->
+			</div>
+			<img src="img/OIP (6).jfif" style="width: 100%; height: 100%; ">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>حلويات عربيه</h1>
+				<a href="./html/drink.html" class="btn-primary" style="left: 35px;">تسوق الان</a> 
+				<!-- <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p> -->
+			</div>
+			<img src="img/OIP (7).jfif" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>بيتيفور</h1>
+				<a href="./html/c3_index.html" class="btn-primary">تسوق الان</a>  
+				<!-- <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p> -->
+			</div>
+			<img src="img/OIP (8).jfif" style="width: 100%; height: 100%;">
+		</div>
+		
+	
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+	<!-- Gallery Start -->
+
+	<section id="gallery">
+		<div class="container">
+			<h2>معرض حلوياتنا</h2>
+			<div class="img-gallery">
+				<img src="img/OIP (3).jfif" alt="Gallery 1">
+				<img src="img/تنزيل (1).jfif" alt="Gallery 2">
+				<img src="img/OIP (5).jfif" alt="Gallery 3">
+				<img src="img/OIP (1).jfif" alt="Gallery 4">
+				<img src="img/تنزيل.jfif" alt="Gallery 5">
+				<img src="img/OIP (2).jfif" alt="Gallery 6">
+			</div>
+		</div>
+	</section>
+
+	<!-- Gallery End -->
+	<section id="contact">
+		<div class="container">
+			<div class="contact-content">
+				<div class="contact-info">
+					<div>
+						<h3>ADDRES</h3>
+						<P><i class="fa-solid fa-location-dot"></i> Hosary Sana, Dares, Yemen</P>
+						<p><i class="fa-solid fa-phone"></i> Phone: 770770770</p>
+						<p><i class="fa-regular fa-envelope"></i> Support@AL-Qardai.com</p>
+					</div>
+					<div>
+						<h3>WORKING HOURS</h3>
+						<p>8:00 am to 11:00 pm on Weekdays</p>
+						<p>11:00 am to 1:00 am on Weekends</p>
+					</div>
+					<div>
+						<h3>FOLLOW US</h3>
+						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+				<form>
+					<input type="text" name="Name" id="Name" placeholder="Full Name" required>
+					<input type="email" name="email" id="email" placeholder="Email ADDRES" required>
+					<input type="text" name="Subject" id="Subject" placeholder="Subject" required>
+					<textarea name="Message" id="Message" cols="30" rows="5"></textarea placeholder="Message">
+					<button type="submit" class="btn">SEND MESSAGE</button>    
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+        <p>Copyriht &copy; 2023 All rights reserved | Made by <b><a href="https://www.royalbroaster.com/ar/index.php"
+            target="_blank"><span> رويال بروستر</span></a></b></p>
+    </footer>
+	
+<script src="./js/jsfile.js"></script>
+</body>
+</html>
+
+
